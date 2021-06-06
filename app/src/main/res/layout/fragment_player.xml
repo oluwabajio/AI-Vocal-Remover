@@ -152,19 +152,18 @@
                             android:layout_marginTop="20dp"
                             android:background="@drawable/btn_extract"
                             android:text="Download" />
+
                         <Button
                             android:id="@+id/btnPremium"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
                             android:layout_marginRight="7dp"
                             android:layout_weight="1"
-                            android:layout_marginTop="20dp"
                             android:background="@drawable/btn_extract"
                             android:text="Purchase Premium" />
                     </LinearLayout>
                 </LinearLayout>
-
-
 
 
             </LinearLayout>
@@ -241,7 +240,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginHorizontal="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/adview_bg"
         android:paddingVertical="20dp">
 
         <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
